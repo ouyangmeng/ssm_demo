@@ -31,7 +31,7 @@
         <img hidefocus="true" src="/resources/images/bd_logo1.png" height="129" width="270">
     </div>
     <div class="serch">
-        <form action="/user/index">
+        <form action="/user/index" method="post">
             <input id="kw" name="wd" class="s_ipt" value="" maxlength="255" autocomplete="off"/>
             <input id="mysubmit" type="submit" value="百度一下"/>
         </form>
