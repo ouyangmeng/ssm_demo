@@ -2,6 +2,7 @@ package com.ssm.demo.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * user:ouym
@@ -9,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * time: 13:26
  */
 @Controller
-@RequestMapping("/")
-public class UserComtroller {
+@RequestMapping("/user")
+public class UserController {
 
-    @RequestMapping("index")
-    public String index(){
-        return "index";
+    @RequestMapping("/index")
+    public String index(@RequestParam("wd")String wd){
+        return "result";
     }
 }
