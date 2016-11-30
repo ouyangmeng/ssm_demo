@@ -21,7 +21,7 @@
 
         <div class="serch">
             <form action="">
-                <input id="kw" name="wd" class="s_ipt" value="" maxlength="255" autocomplete="off"/>
+                <input id="kw" name="wd" class="s_ipt" value="${query}" maxlength="255" autocomplete="off"/>
                 <input id="mysubmit" type="submit" value="百度一下"/>
             </form>
         </div>
